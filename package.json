@@ -13,7 +13,8 @@
   "license": "Copyright Condè Nast 2014. All rights reserved.",
   "dependencies": {
     "bunyan": "~0.23.1",
-    "concat-stream": "~1.4.6"
+    "concat-stream": "~1.4.6",
+    "moment": "~2.7.0"
   },
   "bundledDependencies": [
     "hipchat-client"
