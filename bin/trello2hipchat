@@ -1,0 +1,27 @@
+#!/usr/bin/env node
+
+"use strict";
+
+var bunyan = require('bunyan').createLogger({ name: 'helio-courier' });
+var helio = require('../');
+var http = require('http');
+
+var port = Number(process.env.PORT || 8080);
+
+http.createServer(
+  helio.if.trello({
+    secret: process.env.TRELLO_SECRET,
+    callbackUrl: process.env.TRELLO_CALLBACK_URL
+  }, helio.then.hipchat({
+    token: process.env.HIPCHAT_TOKEN,
+    room_id: process.env.HIPCHAT_ROOM
+  }))
+).listen(port, function(err) {
+  if (err) {
+    throw err;
+  }
+  bunyan.info('helio-courier listening on ' + port);
+});
+
+helio.log.bunyan(bunyan);
+

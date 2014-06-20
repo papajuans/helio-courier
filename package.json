@@ -1,0 +1,30 @@
+{
+  "name": "helio-courier",
+  "version": "0.0.0",
+  "description": "A webhook for cross-posting trello updates to hipchat",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "infra-pretest.sh",
+    "test": "infra-test.sh",
+    "start": "node ./bin/trello2hipchat | bunyan",
+    "deploy": "make deploy"
+  },
+  "author": "Condè Nast",
+  "license": "Copyright Condè Nast 2014. All rights reserved.",
+  "dependencies": {
+    "bunyan": "~0.23.1",
+    "concat-stream": "~1.4.6"
+  },
+  "bundledDependencies": [
+    "hipchat-client"
+  ],
+  "engines": {
+    "node": "0.10.29"
+  },
+  "devDependencies": {
+    "infra-dotfiles": "git+ssh://git@github.com:CondeNast/infra-dotfiles.git#expose-bins",
+    "jshint": "~2.5.1",
+    "mocha": "~1.20.1",
+    "shell-quote": "~1.4.1"
+  }
+}
