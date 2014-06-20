@@ -10,15 +10,12 @@
     "deploy": "make deploy"
   },
   "author": "Condè Nast",
-  "license": "Copyright Condè Nast 2014. All rights reserved.",
+  "license": "MIT",
   "dependencies": {
     "bunyan": "~0.23.1",
     "concat-stream": "~1.4.6",
     "moment": "~2.7.0"
   },
-  "bundledDependencies": [
-    "hipchat-client"
-  ],
   "engines": {
     "node": "0.10.29"
   },
@@ -27,5 +24,23 @@
     "jshint": "~2.5.1",
     "mocha": "~1.20.1",
     "shell-quote": "~1.4.1"
-  }
+  },
+  "bundleDependencies": [
+    "hipchat-client"
+  ],
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CondeNast/helio-courier.git"
+  },
+  "keywords": [
+    "webhook"
+  ],
+  "bugs": {
+    "url": "https://github.com/CondeNast/helio-courier/issues"
+  },
+  "homepage": "https://github.com/CondeNast/helio-courier"
 }
