@@ -1,0 +1,79 @@
+{
+  "name": "helio-courier",
+  "hostname": "72deeee5-1003-440c-a5c0-f8a24260a7f8",
+  "pid": 2,
+  "level": 40,
+  "action": {
+    "id": "53a2482a55cca09b5f1b95be",
+    "idMemberCreator": "518f2cf9a64e0e0612000e08",
+    "data": {
+      "board": {
+        "shortLink": "9dgqSGsl",
+        "name": "copilot infra now",
+        "id": "523754d75037b5d96c000379"
+      },
+      "card": {
+        "shortLink": "F3R2dJVr",
+        "idShort": 288,
+        "name": "Trello Hipchat alerting",
+        "id": "539f19d3dc9030e88f61637d",
+        "pos": 7860223
+      },
+      "old": {
+        "pos": 7446527
+      }
+    },
+    "type": "updateCard",
+    "date": "2014-06-19T02:17:14.141Z",
+    "memberCreator": {
+      "id": "518f2cf9a64e0e0612000e08",
+      "avatarHash": "745e8c711185ddccb3ca099e2d2f079b",
+      "fullName": "Josh Holbrook",
+      "initials": "JFH",
+      "username": "jesusabdullah"
+    }
+  },
+  "model": {
+    "id": "523754d75037b5d96c000379",
+    "name": "copilot infra now",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": "5097e24fa96251f54c000034",
+    "pinned": true,
+    "url": "https://trello.com/b/9dgqSGsl/copilot-infra-now",
+    "shortUrl": "https://trello.com/b/9dgqSGsl",
+    "prefs": {
+      "permissionLevel": "org",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "purple",
+      "backgroundColor": "#6D5798",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "unknown",
+      "canBePublic": false,
+      "canBeOrg": false,
+      "canBePrivate": false,
+      "canInvite": true
+    },
+    "labelNames": {
+      "yellow": "",
+      "red": "important",
+      "purple": "mentor",
+      "orange": "defect",
+      "green": "brand-facing",
+      "blue": "database"
+    }
+  },
+  "msg": "",
+  "time": "2014-06-19T02:17:14.289Z",
+  "v": 0
+}
+
