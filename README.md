@@ -104,7 +104,7 @@ Pass a [bunyan](https://github.com/trentm/node-bunyan) logger into this to get b
 
 ## Tests
 
-Testing is limited to a sanity test.
+Testing is limited to a sanity test. We also run jshint as a pretest hook.
 
 ## Heroku Deployment
 
@@ -114,7 +114,7 @@ We've been using heroku to host our webhook server. Here are a few short hints:
 * You will need to run something like: `git remote add heroku git@heroku.com/my-webhooks-app.git` in order to deploy to it
 * Deploy manually by running: `git push heroku <some_branch>:master`
 * Get logs by running `heroku logs` or `heroku logs -t` for tail-like behavior
-* alternately, run `make deploy` in this directory
+* alternately, run `make deploy` in this directory (note this also runs tests)
 
 ## License:
 
