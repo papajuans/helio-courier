@@ -118,5 +118,4 @@ We've been using heroku to host our webhook server. Here are a few short hints:
 
 ## License:
 
-Copyright 2014 Condè Nast. All rights reserved.
-
+MIT. See LICENSE file.
